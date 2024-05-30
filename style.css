@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-image: url('img/images.jpg');
+    background-position: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main section {
+    padding: 2em;
+    display: none;
+}
+
+#home{ 
+    background-image: url('img/image_search_1698849154922.jpg'); 
+    background-position: center;
+}
+
+
+#about {
+    background: url('img/about.jpeg') no-repeat center center/cover;
+    color: white;
+}
+#blog {
+    background: url('img/blog.jpg') no-repeat center center/cover;
+    color: white;
+}
+#courses {
+    background: url('img/course.jpeg') no-repeat center center/cover;
+    color: white;
+}
+#pricing {
+    background: url('img/price.jpeg') no-repeat center center/cover;
+    color: white;
+}
+#contact {
+    background: url('img/contract.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+#support{ 
+    background-image: url('img/support.jpg') no-repeat center center/cover;
+    color: white; 
+}
+
+
+#footer {
+    background-image: url('img\fotter.jpg');
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+button {
+    margin: 0 0.5em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
