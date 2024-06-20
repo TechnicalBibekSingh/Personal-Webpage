@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         alert('Sign In form submitted');
     });
 
-    const signinForm = document.getElementById('signinForm');
+    /*const signinForm = document.getElementById('signinForm');
     signinForm.addEventListener('submit', (event) => {
         event.preventDefault();
         alert('Sign In form submitted');
@@ -20,5 +20,5 @@ document.addEventListener('DOMContentLoaded', () => {
     loginForm.addEventListener('submit', (event) => {
         event.preventDefault();
         alert('Log In form submitted');
-    });
+    });*/
 });
